@@ -1,0 +1,7 @@
+WHAT HAS BEEN DONE AND WHEN
+
+08.26
+    -importing 'Share Tech Mono' font from google fonts
+    -made better combat code.  Gives player option for RPS
+    -beginning CSS
+    -started by making buttons like a nav bar, silly me. Corrected with just putting them in div's.
