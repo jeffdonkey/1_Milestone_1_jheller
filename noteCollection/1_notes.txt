@@ -3,4 +3,4 @@ at it's heart this is a rock paper scissors game.
 NEED A BETTER RPS GAME.
     -will need to allow for ties
     
-
+instead of health bar a dignity bar

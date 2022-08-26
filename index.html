@@ -6,14 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>theGame</title>
-    <script src="SimpleFightOnBtn.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="BetterFightOnBtn.js"></script>
 </head>
 
 <body>
-    <h1 id="topText">The GAME is HERE</h1>
-
-    <!-- basic button-->
+    <div id="topArea">
+        <h1 id="topText">The GAME is HERE</h1>
+    </div>
+    <div id="textBox"></div>
+    <div id="moveBtn">
+        <ul>
+            <li>
+                <button id="moveLeft" onclick="XXX()">LEFT</button>
+            </li>
+            <li>
+                <button id="moveForward" onclick="XXX()">FORWARD</button>
+            </li>
+            <li>
+                <button id="moveRight" onclick="xxx()">RIGHT</button>
+            </li>
+        </ul>
+    </div>
+    <div id="choiceBtn">
+        <ul>
+            <li>
+                <button id="choiceFight" onclick="XXX()">FIGHT</button>
+            </li>
+            <li>
+                <button id="choiceEscape" onclick="XXX()">ESCAPE</button>
+            </li>
+            <li>
+                <button id="choiceDiscuss" onclick="xxx()">DISCUSS</button>
+            </li>
+        </ul>
+    </div>
+    <div id="rpsBtn">
+        <ul>
+            <li>
+                <button id="rpsRock" onclick="rpsFight('rock')">ROCK</button>
+            </li>
+            <li>
+                <button id="rpsPaper" onclick="rpsFight('paper')">PAPER</button>
+            </li>
+            <li>
+                <button id="rpsScissors" onclick="rpsFight('scissors')">SCISSORS</button>
+            </li>
+        </ul>
+    </div>
+    <div id="dialogBtn">
+        <ul>
+            <li>
+                <button id="dialogA" onclick="XXX()">A</button>
+            </li>
+            <li>
+                <button id="dialogB" onclick="XXX()">B</button>
+            </li>
+            
+        </ul>
+    </div>    
+    <!-- basic button
     <button id="fightBtn" onclick="fightResultMessage()">FIGHT!</button>
+    -->
 </body>
 
 </html>
