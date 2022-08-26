@@ -1,0 +1,25 @@
+html,
+body {
+    margin: auto;
+    text-align: center;
+    border: 3px solid greenyellow;
+    background-color: lightgrey;
+    font-family: Monaco, "Lucida Console", monospace;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* note: the body font-family is over-written in the buttons.
+if you change in the body you will need to change for the button also*/
+
+li{
+    display:inline-block;
+}
+
+.button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
