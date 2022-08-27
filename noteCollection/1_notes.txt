@@ -5,4 +5,14 @@ NEED A BETTER RPS GAME.
     
 instead of health bar a dignity bar
 
+OK TO USE MULTIPLE HTML PAGES
+
 08.27 goal-front page, then destroy and replace
+
+
+GUIDANCE FOR Readme.md
+    -inspiration for game
+    -controls
+    -tech used
+        -google fonts
+    -address bugs/roadmap for future

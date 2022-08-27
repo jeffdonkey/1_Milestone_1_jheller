@@ -1,0 +1,26 @@
+here is some code from stackoverflow to help with moving data from
+html form to JS variable.  It did not work for me.  Saving because there
+may be a roadmap in here
+
+HTML
+<div>
+        <form id="enterUser" method="GET" action="">
+            <label for = "name">Enter Player Name</label>
+            <input type="string" name="name" id="name" required>
+            
+        </form>
+
+    </div>
+    <div id="subBtn">
+        <input type = "submit" value="Submit">
+    </div>
+
+
+JAVASCRIPT
+   window.addEventListener("load", function() {
+    this.document.getElementById("enterUser").addEventListener("submit", function(e){
+        e.preventDefault();
+        let userName = document.getElementById("name").ariaValueMax;
+        console.log(userName)
+    });
+}); 
