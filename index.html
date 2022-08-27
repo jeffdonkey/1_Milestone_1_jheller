@@ -10,7 +10,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     </style>
     <script src="main.js"></script>
-    <title>Document</title>
+    <title>TitlePage</title>
 </head>
 
 <body>
@@ -22,13 +22,18 @@
             All you have is a rock, a piece of paper, and a pair of scissors.</h1>
     </div>
 
-    
-    <!--  
-        WHAT I NEED THIS PAGE TO DO
-        -have a single line form for a player name
-            -prefer submit button at end of entry field
-        -player name string needs to send to JS function/variable
-    -->
+    <div id="playerNameEntry">
+
+        <form method="GET" action="game.html">
+            <div>
+                <label for="playerName">Your Name<span class="required-field">*</span></label>
+                <input type="text" pattern="[A-Za-z]{2,10}" title="between 2 and 10 letters" required id="playerName"
+                    name="playerName">
+        </form>
+
+        <input type="submit">
+
+    </div>
 
 </body>
 

@@ -7,3 +7,5 @@ WHAT HAS BEEN DONE AND WHEN
     -started by making buttons like a nav bar, silly me. Corrected with just putting them in div's.
 
 08.27
+    -index.html 90% done. CSS improvement needed
+    -redirects from index.html to game.html when submit button pressed. think this is happening from "action" in the form tag.
