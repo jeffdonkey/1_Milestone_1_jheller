@@ -5,3 +5,5 @@ WHAT HAS BEEN DONE AND WHEN
     -made better combat code.  Gives player option for RPS
     -beginning CSS
     -started by making buttons like a nav bar, silly me. Corrected with just putting them in div's.
+
+08.27
