@@ -1,14 +1,6 @@
 at it's heart this is a rock paper scissors game.
 
-NEED A BETTER RPS GAME.
-    -will need to allow for ties
-    
-instead of health bar a dignity bar
-
 OK TO USE MULTIPLE HTML PAGES
-
-08.27 goal-front page, then destroy and replace
-
 
 GUIDANCE FOR Readme.md
     -inspiration for game
@@ -16,3 +8,6 @@ GUIDANCE FOR Readme.md
     -tech used
         -google fonts
     -address bugs/roadmap for future
+
+Have decided to remove dialogue for now.  Will add back if time.
+

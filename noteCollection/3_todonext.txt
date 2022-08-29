@@ -1,5 +1,2 @@
-log 08.27
-    -capture user name from form in index.html; look at form homework
-    -set up playfield
-    -get background resources
-
+08.29 GOAL:
+work on action buttons
