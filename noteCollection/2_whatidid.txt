@@ -9,3 +9,7 @@ WHAT HAS BEEN DONE AND WHEN
 08.27
     -index.html 90% done. CSS improvement needed
     -redirects from index.html to game.html when submit button pressed. think this is happening from "action" in the form tag.
+
+8.28
+    -paper planning for for layout
+    -decided to use separate html pages for each "grid"
