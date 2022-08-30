@@ -14,27 +14,26 @@ body {
 
 }
 
-#moveBtn {
+#overallBrn {
     display:inline-block;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    
    
 }
 
 
 
-#choiceBtn {
+/* #choiceBtn {
 
 }
 
 #rpsBtn {
 
-}
+} */
 
-#dialogueBtn {
 
-}
 
 /* tried setting widths for these buttons within their
 parents-did not work for me*/
@@ -53,9 +52,7 @@ parents-did not work for me*/
 #choiceEscape {    
     width: 80px;
 }
-#choiceDiscuss {    
-    width: 80px;
-}
+
 #rpsRock {    
     width: 80px;
 }
@@ -64,10 +61,4 @@ parents-did not work for me*/
 }
 #rpsScissors {    
     width: 80px;
-}
-#dialogueA {    
-    width: 62px;
-}
-#dialogueB {    
-    width: 62px;
 }

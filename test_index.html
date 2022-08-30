@@ -10,35 +10,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     </style>
-    <script src="BetterFightOnBtn.js"></script>
+    <script src="test_main.js"></script>
 </head>
 
-<body>
+<div>
     <div id="topArea">
         <h1 id="topText">The GAME is HERE</h1>
 
     </div>
+
     <div id="textBox"></div>
 
-    <div id="moveBtn">        
-                <button id="moveLeft" onclick="XXX()">LEFT</button>
-                <button id="moveForward" onclick="XXX()">FORWARD</button>
-                <button id="moveRight" onclick="xxx()">RIGHT</button>        
+    <div id="overallBtn">
+
+        <div id="buttonTopPosition">
+
+        </div>
+
+        <div id="buttonMidPosition">
+            <button id="rpsRock" onclick="theGameWrapper('rock')">ROCK</button>
+            <button id="rpsPaper" onclick="rpsFight('paper')">PAPER</button>
+            <button id="rpsScissors" onclick="rpsFight('scissors')">SCISSORS</button>
+        </div>
+
+        <div id="buttonBottomPosition">
+
+        </div>
+
     </div>
 
-    <div id="choiceBtn">
-        <button id="choiceFight" onclick="XXX()">FIGHT</button>
-        <button id="choiceEscape" onclick="XXX()">ESCAPE</button>
-            </div>
 
-    <div id="rpsBtn">
-        <button id="rpsRock" onclick="rpsFight('rock')">ROCK</button>
-        <button id="rpsPaper" onclick="rpsFight('paper')">PAPER</button>
-        <button id="rpsScissors" onclick="rpsFight('scissors')">SCISSORS</button>
-    </div>
 
-    
-
-</body>
+    </body>
 
 </html>

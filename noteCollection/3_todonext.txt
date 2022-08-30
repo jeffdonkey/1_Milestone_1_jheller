@@ -1,2 +1,5 @@
 08.29 GOAL:
 work on action buttons
+    get them to pop-in from JS
+    change them from JS
+    use w3schools JS HTML DOM

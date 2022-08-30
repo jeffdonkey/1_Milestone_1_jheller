@@ -2,12 +2,7 @@ at it's heart this is a rock paper scissors game.
 
 OK TO USE MULTIPLE HTML PAGES
 
-GUIDANCE FOR Readme.md
-    -inspiration for game
-    -controls
-    -tech used
-        -google fonts
-    -address bugs/roadmap for future
+
 
 Have decided to remove dialogue for now.  Will add back if time.
 

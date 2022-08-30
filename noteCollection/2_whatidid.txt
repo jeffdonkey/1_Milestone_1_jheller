@@ -13,3 +13,9 @@ WHAT HAS BEEN DONE AND WHEN
 8.28
     -paper planning for for layout
     -decided to use separate html pages for each "grid"
+
+8.29
+    -CHANGE FROM USING HTML FOR GRID MAP TO COORIDINATE SYSTEM: N S E W.
+    -putting functions with class theGame
+    -trying to have rps buttons change to nsew buttons.
+        -using a wrapper for passing values from the buttons to class theGame

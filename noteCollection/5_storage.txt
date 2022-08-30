@@ -107,3 +107,17 @@ parents-did not work for me*/
 #dialogueB {    
     width: 62px;
 }
+_________________________________________________________________________
+NSEW BUTTONS HTML
+<div id="buttonTopPosition">
+            <button id="moveNorth" onclick="XXX()">NORTH</button>
+        </div>
+
+        <div id="buttonMidPosition">
+            <button id="moveWest" onclick="XXX()">WEST</button>
+            <button id="moveEast" onclick="xxx()">EAST</button>
+        </div>
+
+        <div id="buttonBottomPosition">
+            <button id="moveSouth" onclick="XXX()">SOUTH</button>
+        </div>
