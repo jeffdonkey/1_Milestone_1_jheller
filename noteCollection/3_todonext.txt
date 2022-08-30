@@ -3,3 +3,7 @@ work on action buttons
     get them to pop-in from JS
     change them from JS
     use w3schools JS HTML DOM
+
+08.30 GOALS:
+continue to work on buttons in and out
+if done work on x-y position tracking    

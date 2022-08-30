@@ -27,9 +27,14 @@ class theGame {
         const removeRPSBtn = document.getElementById("buttonMidPosition");
         while (removeRPSBtn.hasChildNodes()) {
             removeRPSBtn.removeChild(removeRPSBtn.firstChild);
-        }
-        
+        };  
+  
     };
+// start adding movement buttons
+    // btnAddNorth(){
+    //     const addNorth = document.getElementById("buttonTopPosition");
+
+    // };
 
 }
 
