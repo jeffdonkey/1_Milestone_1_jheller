@@ -19,3 +19,6 @@ WHAT HAS BEEN DONE AND WHEN
     -putting functions with class theGame
     -trying to have rps buttons change to nsew buttons.
         -using a wrapper for passing values from the buttons to class theGame
+
+8.31
+    -have NSEW buttons appearing after RPS is done.

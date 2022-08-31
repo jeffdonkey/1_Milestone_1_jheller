@@ -4,6 +4,6 @@ work on action buttons
     change them from JS
     use w3schools JS HTML DOM
 
-08.30 GOALS:
+08.31 GOALS:
 continue to work on buttons in and out
 if done work on x-y position tracking    

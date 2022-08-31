@@ -37,13 +37,16 @@ body {
 
 /* tried setting widths for these buttons within their
 parents-did not work for me*/
-#moveLeft {    
+#moveWest {    
     width: 80px;
 }
-#moveForward {    
+#moveNorth {    
     width: 80px;
 }
-#moveRight {    
+#moveEast {    
+    width: 80px;
+}
+#moveSouth {    
     width: 80px;
 }
 #choiceFight {    
