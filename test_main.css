@@ -6,22 +6,25 @@ html,
 
 body {
     margin: auto;
-    text-align: center;
-    border: 3px solid greenyellow;
-    background-color: lightgrey;
+    text-align: center;    
     font-family: 'Share Tech Mono', monospace;
+    background-image: url('images/city2.png');
+    background-attachment: fixed;
+    background-position: center;
 
 
 }
-
-#overallBrn {
-    display:inline-block;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+#topText {
+    color: chartreuse;
+    text-shadow: 3px 3px 3px black;
+    min-height: 60vh;  
+}
+#textBox {
+color: bisque;
+min-height: 15vh;
+}
     
-   
-}
+
 
 
 
@@ -39,15 +42,19 @@ body {
 parents-did not work for me*/
 #moveWest {    
     width: 80px;
+    height: 30px;
 }
 #moveNorth {    
     width: 80px;
+    height: 30px;
 }
 #moveEast {    
     width: 80px;
+    height: 30px;
 }
 #moveSouth {    
     width: 80px;
+    height: 30px;
 }
 #choiceFight {    
     width: 80px;
@@ -58,10 +65,13 @@ parents-did not work for me*/
 
 #rpsRock {    
     width: 80px;
+    height: 30px;
 }
 #rpsPaper {    
     width: 80px;
+    height: 30px;
 }
 #rpsScissors {    
     width: 80px;
+    height: 30px;
 }
