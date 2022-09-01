@@ -17,11 +17,16 @@ body {
 #topText {
     color: chartreuse;
     text-shadow: 3px 3px 3px black;
+    width: 100%;
     min-height: 60vh;  
+    line-height: 50px;
 }
 #textBox {
-color: bisque;
-min-height: 15vh;
+color: chartreuse;
+min-height: 10vh;
+border: 2px solid black;
+background-color: slategray;
+opacity: 0.8;
 }
     
 
