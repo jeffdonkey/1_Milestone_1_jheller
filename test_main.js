@@ -32,12 +32,12 @@ class theGame {
     };
 
     moveButton(position,buttonText){
-    let northSpace = document.getElementById(position);
-    let createNorthBtn = document.createElement("BUTTON");
-    let createNorthBtnTxt = document.createTextNode(buttonText);
-    createNorthBtn.appendChild(createNorthBtnTxt);
-    northSpace.appendChild(createNorthBtn);
-    document.body.appendChild(northSpace);
+    let moveSpace = document.getElementById(position);
+    let createMoveBtn = document.createElement("BUTTON");
+    let createMoveBtnTxt = document.createTextNode(buttonText);
+    createMoveBtn.appendChild(createMoveBtnTxt);
+    moveSpace.appendChild(createMoveBtn);
+    document.body.appendChild(moveSpace);
     };
 }
 

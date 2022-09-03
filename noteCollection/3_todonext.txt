@@ -10,3 +10,6 @@ work on action buttons
     -collect images
     -spacing and borders
     -!FIX NSEW BUTTONS SO THEY HAVE ID's AND COORD FUNCTION VALUES IN JS theGame AND THE WRAPPER
+
+09.03 GOALS:
+-start work on COORD system

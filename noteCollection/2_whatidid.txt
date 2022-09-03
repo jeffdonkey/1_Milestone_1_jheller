@@ -22,3 +22,5 @@ WHAT HAS BEEN DONE AND WHEN
 
 8.31
     -have NSEW buttons appearing after RPS is done.
+    -added inital background
+    -changed some css
