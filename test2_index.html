@@ -11,30 +11,33 @@
     <link rel="stylesheet" href="test2_main.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+       
     </style>
     <script src="test2_main.js"></script>
     <title>TitlePage</title>
 </head>
 
-<body>
+<body class="cityImage">
+
     <div>
         <h1 id="topText">something here</h1>
     </div>
     <div id="buttonTopPosition">
-        <button id="moveNorth" onclick="northCoordChange()">NORTH</button>
+        <button id="moveNorth" onclick="xyChange(0,1)">NORTH</button>
     </div>
 
     <div id="buttonMidPosition">
-        <button id="moveWest" onclick="westCoordChange()">WEST</button>
-        <button id="moveEast" onclick="eastCoordChange()">EAST</button>
+        <button id="moveWest" onclick="xyChange(-1,0)">WEST</button>
+        <button id="moveEast" onclick="xyChange(1,0)">EAST</button>
     </div>
 
     <div id="buttonBottomPosition">
-        <button id="moveSouth" onclick="southCoordChange()">SOUTH</button>
+        <button id="moveSouth" onclick="xyChange(0,-1)">SOUTH</button>
     </div>
 
 
-    
+
 
 </body>
 
