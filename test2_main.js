@@ -1,27 +1,17 @@
 let playerX = 0
 let playerY = 0
-
-
+    
 function xyChange(value1, value2) {
     playerX = playerX += value1
-    playerY = playerY += value2;
-    let playerXString = playerX.toString();
-    let playerYString = playerY.toString();
-    let playerCoordString = playerXString.concat(",", playerYString);
+    playerY = playerY += value2
+        let playerXString = playerX.toString();
+        let playerYString = playerY.toString();
+        let playerCoordString = playerXString.concat(",", playerYString);
+        theMapWrapper(playerCoordString);
 
-    // below is logic for changing the background Image.  It does this by 
-    // changing the class name for the body tag 
-
-
-
-    // let bodyClass = document.getElementsByTagName("body");
-    // bodyClass[0].className = "clownImage";
-
-
+        console.log(playerCoordString)   
+        
 }
-
-
-
 
 class theMap {
     constructor() { };
@@ -67,11 +57,18 @@ class theMap {
             let bodyClass = document.getElementsByTagName("body");
             bodyClass[0].className = "templeImage";
         }
-        else (string === '-1,-1') {
+        else if (string === '-1,-1') {
             document.getElementById("topText").innerHTML = "You are at the Worst Place on Earth";
             let bodyClass = document.getElementsByTagName("body");
             bodyClass[0].className = "tparkImage";
-        }
+        };
 
-    }
+    };
+}
+
+
+function theMapWrapper(value) {
+    let map = new theMap();
+    map.mapLocation(value);
+    
 }
