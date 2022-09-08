@@ -6,36 +6,30 @@ class theGame {
         let rpsRandom = (Math.floor(Math.random() * 2));
         if (value == 'rock' && rpsRandom == 0) {
             document.getElementById("topText").innerHTML = "Rock breaks Scissors! You Win!";
-            this.createMonster();
+            // this.checkPlayStatus(1);
         }
         else if (value == 'rock' && rpsRandom == 1) {
             document.getElementById("topText").innerHTML = "Paper wraps Rock! You Lose!";
-            this.createMonster();
+            // this.checkPlayStatus(-1)
         }
         else if (value == 'paper' && rpsRandom == 0) {
             document.getElementById("topText").innerHTML = "Paper wraps Rock! You Win!";
-            this.createMonster();
         }
         else if (value == 'paper' && rpsRandom == 1) {
             document.getElementById("topText").innerHTML = "Scissors cuts Paper! You Lose!";
-            this.createMonster();
         }
         else if (value == 'scissors' && rpsRandom == 0) {
             document.getElementById("topText").innerHTML = "Scissors cuts Paper! You Win!";
-            this.createMonster();
         }
         else if (value == 'scissors' && rpsRandom == 1) {
             document.getElementById("topText").innerHTML = "Rock breaks Scissors! You Lose!";
-            this.createMonster();
         }
+        setTimeout(this.createMonster, 3000)
     }
 
-    
-  
-    
 
     createMonster() {
-        
+
         let monsterRandom = (Math.floor(Math.random() * 4))
         if (monsterRandom == 0) {
             document.getElementById("topText").innerHTML = "A Book of Ignored Regulations Challenges You!";
@@ -58,6 +52,19 @@ class theGame {
             bodyClass[0].className = "m_sailor";
         }
     }
+
+    // checkPlayStatus(value) {
+    //     let playerDignity = 3 += value;
+    //     if (playerDignity = 5) {
+    //         console.log(playerDignity)
+    //     }
+    //     else if (playerDignity = 0) {
+    //         console.log(playerDignity)
+    //     }
+    //     else {
+    //         console.log(playerDignity)
+    //     }
+    // }
 
 
 
