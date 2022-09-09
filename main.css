@@ -2,12 +2,124 @@ html,
 
 * {
     font-family: 'Share Tech Mono', monospace;
+}
+
+body {
     margin: auto;
-    text-align: center;
-    background-color:black;
-    color:bisque;   
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    
+    text-align: center;    
+    font-family: 'Share Tech Mono', monospace;
+    background-image: url('images/city2.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.cityImage {
+    background-image: url('images/city2.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.clownImage {
+    background-image: url('images/fClowns.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.burgerImage {
+    background-image: url('images/cBurger.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parkImage {
+    background-image: url('images/dPark.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pizzaImage {
+    background-image: url('images/hPizza.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.campImage {
+    background-image: url('images/rCamp.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.clubImage {
+    background-image: url('images/sClub.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.templeImage {
+    background-image: url('images/temple.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.tparkImage {
+    background-image: url('images/themePark1.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.m_book {
+    background-image: url('images/m_book.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.m_boss {
+    background-image: url('images/m_boss.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.m_dog {
+    background-image: url('images/m_dog.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.m_sailor {
+    background-image: url('images/m_sailor.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#topText, #openingText, #playerNameEntry {
+    color: chartreuse;
+    text-shadow: 3px 3px 3px black;
+    width: 100%;
+    min-height: 60vh;  
+    line-height: 50px;
+}
+#textBox {
+color: chartreuse;
+min-height: 10vh;
+border: 2px solid black;
+background-color: slategray;
+opacity: 0.8;
+}
+ 
+
+/* tried setting widths for these buttons within their
+parents-did not work for me*/
+
+
+#rpsRock {    
+    width: 80px;
+    height: 30px;
+}
+#rpsPaper {    
+    width: 80px;
+    height: 30px;
+}
+#rpsScissors {    
+    width: 80px;
+    height: 30px;
 }
