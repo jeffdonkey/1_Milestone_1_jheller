@@ -13,6 +13,8 @@ body {
     background-position: center;
 }
 
+
+
 .cityImage {
     background-image: url('images/city2.png');
     background-attachment: fixed;
@@ -59,6 +61,7 @@ body {
     background-image: url('images/temple.png');
     background-attachment: fixed;
     background-position: center;
+    
 }
 
 .tparkImage {
@@ -68,39 +71,63 @@ body {
 }
 
 .m_book {
-    background-image: url('images/m_book.png');
-    background-attachment: fixed;
-    background-position: center;
+    background-image: url('images/m_book.png'), url('images/cBurger.png');
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px 250px, stretch;
+    
 }
 
 .m_boss {
-    background-image: url('images/m_boss.png');
-    background-attachment: fixed;
-    background-position: center;
+    background-image: url('images/m_boss.png'), url('images/dPark.png');
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px 250px, stretch;
 }
 
 .m_dog {
-    background-image: url('images/m_dog.png');
-    background-attachment: fixed;
-    background-position: center;
+    background-image: url('images/m_dog.png'), url('images/rCamp.jpg');
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px 250px, stretch;
 }
 
-.m_sailor {
-    background-image: url('images/m_sailor.png');
+.m_Tim {
+    background-image: url('images/m_sailor.png'), url('images/sClub.png');
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px 250px, stretch;
+}
+
+.g_end {
+    background-image: url('images/goodEnd.png');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; 
+}
+
+.b_end {
+    background-image: url('images/temple.png');
+    background-attachment: fixed;
+    background-position: center;  
 }
 
 #topText, #openingText, #playerNameEntry {
     color: chartreuse;
     text-shadow: 3px 3px 3px black;
+    text-align: center;
     width: 100%;
     min-height: 60vh;  
     line-height: 50px;
 }
+
 #textBox {
 color: chartreuse;
-min-height: 10vh;
+text-align: center;
+min-height: 2vh;
 border: 2px solid black;
 background-color: slategray;
 opacity: 0.8;

@@ -1,10 +1,13 @@
 let playerDignity = 3
 let rpsOutcome = true
 
+
 class theGame {
     constructor() { };
 
     checkPlayStatus(value) {
+
+        console.log(playerDignity);
 
         if (rpsOutcome) {
             playerDignity = playerDignity += 1
@@ -15,15 +18,29 @@ class theGame {
 
 
         if (playerDignity >= 5) {
-            console.log("condition 1", playerDignity);
+            let winH3Remove = document.getElementById("textBox");
+            winH3Remove.remove();
             this.playerWin();
         }
         else if (playerDignity <= 0) {
-            console.log("condition 2", playerDignity);
+            let loseH3Remove = document.getElementById("textBox");
+            loseH3Remove.remove();
             this.playerLose();
         }
-        else {
-            console.log("condition 3", playerDignity);
+        else if (playerDignity == 1) {
+            document.getElementById("textBox").innerHTML = "Do you feel it? The last gram of yourself?";
+            setTimeout(this.createMonster, 3000);
+        }
+        else if (playerDignity == 2) {
+            document.getElementById("textBox").innerHTML = "Feeling down?";
+            setTimeout(this.createMonster, 3000);
+        }
+        else if (playerDignity == 3) {
+            document.getElementById("textBox").innerHTML = "Enjoy this while it lasts. The middle. Free of loss or gain.";
+            setTimeout(this.createMonster, 3000);
+        }
+        else if (playerDignity == 4) {
+            document.getElementById("textBox").innerHTML = "Could this be.....happiness?  Is it getting better?";
             setTimeout(this.createMonster, 3000);
         }
     }
@@ -80,14 +97,14 @@ class theGame {
         else if (monsterRandom == 3) {
             document.getElementById("topText").innerHTML = "Drunk Tim Challenges You!";
             let bodyClass = document.getElementsByTagName("body");
-            bodyClass[0].className = "m_sailor";
+            bodyClass[0].className = "m_Tim";
         }
     }
 
     playerWin() {
         document.getElementById("topText").innerHTML = "YOU HAVE REGAINED YOUR DIGNITY!  GO MAKE SOME BABIES!  SHAPE A NEW SOCIETY!";
         let bodyClass = document.getElementsByTagName("body");
-        bodyClass[0].className = "burgerImage";
+        bodyClass[0].className = "g_end";
         let removeRPSBtn = document.getElementById("buttonMidPosition");
         while (removeRPSBtn.hasChildNodes()) {
             removeRPSBtn.removeChild(removeRPSBtn.firstChild);
@@ -103,7 +120,7 @@ class theGame {
     playerLose() {
         document.getElementById("topText").innerHTML = "YOU HAVE LOST ALL HUMAN DIGNITY.  YOU LIE DOWN AND AWAIT THE DARKNESS.";
         let bodyClass = document.getElementsByTagName("body");
-        bodyClass[0].className = "templeImage";
+        bodyClass[0].className = "b_end";
 
         let removeRPSBtn = document.getElementById("buttonMidPosition");
         while (removeRPSBtn.hasChildNodes()) {
@@ -114,14 +131,14 @@ class theGame {
         createResetBtn.setAttribute("onclick", "window.location.reload()");
         createResetBtn.appendChild(createResetBtnTxt);
         document.body.appendChild(createResetBtn);
-        
-        }
-
-
-
-
 
     }
+
+
+
+
+
+}
 
 
 function theGameWrapper(value) {
