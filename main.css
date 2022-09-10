@@ -13,59 +13,8 @@ body {
     background-position: center;
 }
 
-
-
 .cityImage {
     background-image: url('images/city2.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.clownImage {
-    background-image: url('images/fClowns.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.burgerImage {
-    background-image: url('images/cBurger.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.parkImage {
-    background-image: url('images/dPark.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.pizzaImage {
-    background-image: url('images/hPizza.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.campImage {
-    background-image: url('images/rCamp.jpg');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.clubImage {
-    background-image: url('images/sClub.png');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.templeImage {
-    background-image: url('images/temple.png');
-    background-attachment: fixed;
-    background-position: center;
-    
-}
-
-.tparkImage {
-    background-image: url('images/themePark1.png');
     background-attachment: fixed;
     background-position: center;
 }
@@ -130,7 +79,7 @@ text-align: center;
 min-height: 2vh;
 border: 2px solid black;
 background-color: slategray;
-opacity: 0.8;
+/* opacity: 0.8; */
 }
  
 
