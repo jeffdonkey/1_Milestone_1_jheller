@@ -88,7 +88,7 @@ body {
 }
 
 .m_dog {
-    background-image: url('images/m_dog.png'), url('images/rCamp2.jpg');
+    background-image: url('images/m_dog.png'), url('images/rCamp2.png');
     background-attachment: fixed, fixed;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;

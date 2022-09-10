@@ -23,4 +23,4 @@ Future Development, Improvement, and Bug-Squashing list:
     -lock-out buttons between fights
     -add some sounds
     -add a map and movement
-    
+    -do something with the form name-grab
