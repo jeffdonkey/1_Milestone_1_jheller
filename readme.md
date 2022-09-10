@@ -1,9 +1,4 @@
-GUIDANCE FOR Readme.md
-    -inspiration for game
-    -controls
-    -tech used
-        -google fonts
-    -address bugs/roadmap for future
+
 
 Inspiration:
 I have two inspirations for this game.  The first inspiration is the financial culture of America. The second is AI generated art.
