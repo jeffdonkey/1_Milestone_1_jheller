@@ -20,7 +20,14 @@
 
 
 
-    <h3 id="textBox">This Is Your Dignity. Yay. You have some but not enough. Fight, please.</h3>
+    <h3 id="textBox"></h3>
+    
+    
+    <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        let name = `${urlParams.get('playername')}`
+        document.getElementById('textBox').textContent = `${name}, this is your Dignity.  Yay.  You have some but not enough. Fight, please.`
+    </script>
 
 
 

@@ -20,6 +20,7 @@ Technology Used:
     -Krita by KDE community. Used to create "bucketofchicken.png".
 
 Future Development, Improvement, and Bug-Squashing list:
+    -smooth transitions between fights (async would help)
     -lock-out buttons between fights
     -add some sounds
     -add a map and movement
