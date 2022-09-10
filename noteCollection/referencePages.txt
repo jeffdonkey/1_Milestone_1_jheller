@@ -1,4 +1,0 @@
-For CSS in DOM: https://www.w3schools.com/js/js_htmldom_css.asp
-    also: https://www.w3schools.com/jsref/dom_obj_style.asp for a list of CSS styles.
-
-    also: https://www.w3schools.com/js/js_htmldom_animate.asp for ANIMATION.
